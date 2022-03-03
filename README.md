@@ -3,7 +3,7 @@ Power App that provisions SharePoint sites and Teams
 
 This app uses standard Power Platform Connectors with a SharePoint Backend. 
 
-###To import a solution:
+To import a solution:
 Sign into Power Apps and select Solutions from the left navigation.
 
 On the command bar, select Import.
@@ -24,7 +24,9 @@ If missing dependencies are detected in the target environment, a list of the de
 
 Select Import.
 
+
 Create SharePoit List
+
 #1 - Connect to the destination SharePoint site 
 Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
 
