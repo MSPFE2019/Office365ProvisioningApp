@@ -35,7 +35,7 @@ Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
 
 It will create the following list:
 Agency Data - This contain your Agency information for the naming convention 
-![Screenshot](Agencydata.jpg)
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
 
 SharePointRequestList - Contains all the SharePoint Request
 
