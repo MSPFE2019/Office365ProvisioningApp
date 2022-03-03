@@ -1,9 +1,9 @@
-# Office355ProvisioningApp
+# Office365 Provisioning App
 Power App that provisions SharePoint sites and Teams
 
 This app uses standard Power Platform Connectors with a SharePoint Backend. 
 
-To import a solution:
+###To import a solution:
 Sign into Power Apps and select Solutions from the left navigation.
 
 On the command bar, select Import.
