@@ -23,3 +23,15 @@ If your solution contains environment variables, you will be prompted to enter v
 If missing dependencies are detected in the target environment, a list of the dependencies is presented. In environments where the required package version is available for import in the target environment, a link to resolve the dependency is presented. Selecting the link takes you to the Power Platform admin center where you can install the application update. After the application update is completed, you can start the solution import again.
 
 Select Import.
+
+Create SharePoit List
+#1 - Connect to the destination SharePoint site 
+Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
+
+#2 - Import the items from the template file
+Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
+
+It will create the following list:
+Agency Data - This contain your Agency information for the naming convention
+SharePointRequestList - Contains all the SharePoint Request
+TeamsRequestList - Contains all the Teams Request
