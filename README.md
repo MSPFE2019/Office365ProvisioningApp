@@ -13,7 +13,11 @@ This app uses standard Power Platform Connectors with a SharePoint Backend.
 Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
 
 2. Import the items from the template file
+
 Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
+
+
+Download [SPList.pnp](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/SPList.pnp)
 
 ###### It will create the following list:
 Agency Data - This contain your Agency information for the naming convention 
