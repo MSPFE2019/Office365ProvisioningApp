@@ -29,7 +29,7 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 1. On the command bar, select Import.
 
-2. Import solution.
+2. [Import solution.](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/RequestATeamPA_1_1_0_6.zip)
 
 3. On the Import a solution page, select Browse to locate the compressed (.zip or .cab) file that contains the solution you want to import.
 
