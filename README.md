@@ -10,6 +10,7 @@ This app uses standard Power Platform Connectors with a SharePoint Backend.
 
 
 1. Connect to the destination SharePoint site 
+
 Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
 
 2. Import the items from the template file
