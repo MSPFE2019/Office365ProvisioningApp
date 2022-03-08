@@ -6,13 +6,13 @@ This app uses standard Power Platform Connectors with a SharePoint Backend.
 1. Create SharePoint Lists
 2. Import Solution 
 
-#### Create SharePoint Lists
+### Create SharePoint Lists
 
 
-# 1 - Connect to the destination SharePoint site 
+1. Connect to the destination SharePoint site 
 Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
 
-# 2 - Import the items from the template file
+2. Import the items from the template file
 Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
 
 It will create the following list:
@@ -26,7 +26,7 @@ SharePointRequestList - Contains all the SharePoint Request
 TeamsRequestList - Contains all the Teams Request
 
 
-#### To import a solution:
+### To import a solution:
 Sign into Power Apps and select Solutions from the left navigation.
 
 1. On the command bar, select Import.
