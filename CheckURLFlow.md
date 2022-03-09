@@ -1,9 +1,14 @@
 ## Create CheckURLFlow
 
 1. Trigger - Power Apps
+2. Initialize Variable - TenantURL
+3. Initialize Variable - Site Url
+4. Initialize Variable - URLExist
+5. Send an HTTP request to SharePoint
+6. Parse JSON
 
-
-Pars JSON
+Parse JSON
+</p>
   {
     "type": "object",
     "properties": {
@@ -21,3 +26,8 @@ Pars JSON
         }
     }
 }
+</P>
+
+8. Condition
+9. Respond to PowerApp
+
