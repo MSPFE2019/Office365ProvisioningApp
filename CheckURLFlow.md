@@ -1,12 +1,22 @@
 ## Create CheckURLFlow
 
 1. Trigger - Power Apps
-2. Initialize Variable - TenantURL
-3. Initialize Variable - Site Url
-4. Initialize Variable - URLExist
-5. Send an HTTP request to SharePoint
-6. Parse JSON
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/PowerAppTrigger.jpg)
 
+3. Initialize Variable - TenantURL
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/TenantUrl.jpg)
+
+5. Initialize Variable - Site Url
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/SiteUrl.jpg)
+
+7. Initialize Variable - URLExist
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/URLExist.jpg)
+
+9. Send an HTTP request to SharePoint
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/SendAnHttp.jpg)
+
+11. Parse JSON
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/ParseJSON.jpg)
 Parse JSON
 </p>
   {
@@ -29,5 +39,9 @@ Parse JSON
 </P>
 
 8. Condition
-9. Respond to PowerApp
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Condition.jpg)
+
+10. Respond to PowerApp
+
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Respond%20to%20PowerApp.jpg)
 
