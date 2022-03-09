@@ -44,11 +44,24 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 6. If your solution contains connection references, you’ll be prompted to select the connections you want. If a connection does not already exist, create a new one. Select Next.
 
-7. If your solution contains environment variables, you will be prompted to enter values. You will not see this screen if value(s) are already present in your solution or the target environment.
+7. The solution contains an environment variables called TenantURL(https://contoso.sharepoint.com), you will be prompted to enter values. 
 
 8. If missing dependencies are detected in the target environment, a list of the dependencies is presented. In environments where the required package version is available for import in the target environment, a link to resolve the dependency is presented. Selecting the link takes you to the Power Platform admin center where you can install the application update. After the application update is completed, you can start the solution import again.
 
 9. Select Import.
 
 
+#### Imported Components:
+
+Create SPO Flow - Create SharePoint Sites
+..*This needs to be modified to point your SPO Site and List
+
+Create Teams Flow - Create Teams Sites
+..*This needs to be modified to point your SPO Site and List
+
+Offce365 Provisioning App - Power App
+..*CheckURL - Check if Url exits
+
+TenantUrl - Needed for the CheckURL flow
+..*This needs to be modified to point your SPO domain- https://contoso.sharepoint.com
 
