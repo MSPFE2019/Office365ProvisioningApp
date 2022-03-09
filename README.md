@@ -54,14 +54,18 @@ Sign into Power Apps and select Solutions from the left navigation.
 #### Imported Components:
 
 Create SPO Flow - Create SharePoint Sites
+
 ..*This needs to be modified to point your SPO Site and List
 
 Create Teams Flow - Create Teams Sites
+
 ..*This needs to be modified to point your SPO Site and List
 
 Offce365 Provisioning App - Power App
+
 ..*CheckURL - Check if Url exits
 
 TenantUrl - Needed for the CheckURL flow
+
 ..*This needs to be modified to point your SPO domain- https://contoso.sharepoint.com
 
