@@ -21,9 +21,11 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 7. The solution has three environment variables: 
 
-*SPO_TenantInformation -(https://contoso.sharepoint.com/) - This your Tenant URL 
-*SPO Site for Data - (https://contoso.sharepoint.com/sites/Office365ManagementApp)
-*SPO List Name - (Office365ManagementApp) - SharePoint List Name
+* SPO_TenantInformation -(https://contoso.sharepoint.com/) - This your Tenant URL
+
+* SPO Site for Data - (https://contoso.sharepoint.com/sites/Office365ManagementApp)
+
+* SPO List Name - (Office365ManagementApp) - SharePoint List Name
 
 8. If missing dependencies are detected in the target environment, a list of the dependencies is presented. In environments where the required package version is available for import in the target environment, a link to resolve the dependency is presented. Selecting the link takes you to the Power Platform admin center where you can install the application update. After the application update is completed, you can start the solution import again.
 
@@ -33,22 +35,27 @@ Sign into Power Apps and select Solutions from the left navigation.
 ### Imported Components:
 
 ###### Flows
-*CreateAgencyList - Create Agency List for Naming of resource
-*CreateOffice365ManList - Create Office365ManagementApp List for request storage
-*Check_URL - Check resource url availiable [Check_URL - Check if Url exits](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/CheckURLFlow.md)
+* CreateAgencyList - Create Agency List for Naming of resource
+ 
+* CreateOffice365ManList - Create Office365ManagementApp List for request storage
+
+* Check_URL - Check resource url availiable [Check_URL - Check if Url exits](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/CheckURLFlow.md)
 
 
 ###### App
-*Office365 Provisioning Appv3
-**Remove connection and Re-add your SharePoint List connections
+* Office365 Provisioning Appv3
+ 
+** Remove connection and Re-add your SharePoint List connections
 
 ### Create SharePoint Lists
 
 Run the following flows:
 
-*CreateAgencyList - Create Agency List for Naming of resource
-**Agency Data - This contain your Agency information for the naming convention
+* CreateAgencyList - Create Agency List for Naming of resource
+
+** Agency Data - This contain your Agency information for the naming convention
 ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
 
-*CreateOffice365ManList - Create Office365ManagementApp List for request storage
-**Office365ManagementApp - Contains all the SharePoint Request
+* CreateOffice365ManList - Create Office365ManagementApp List for request storage
+
+** Office365ManagementApp - Contains all the SharePoint Request
