@@ -4,7 +4,7 @@
 ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/PowerAppTrigger.jpg)
 
 3. Initialize Variable - TenantURL
-![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/TenantUrl.jpg)
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/TenantURL.jpg)
 
 5. Initialize Variable - Site Url
 ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/SiteUrl.jpg)
