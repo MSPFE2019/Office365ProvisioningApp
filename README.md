@@ -2,6 +2,11 @@
 Power App that provisions SharePoint sites and Teams
 
 This app uses standard Power Platform Connectors with a SharePoint Backend. 
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Main%20Screen%20.jpg)
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Information%20Screen.jpg)
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Example.jpg)
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Confimation.jpg)
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Submit.jpg)
 
 
 ### To import a solution:
@@ -47,6 +52,8 @@ Sign into Power Apps and select Solutions from the left navigation.
 ###### App
 * Office365 Provisioning Appv3
  * Remove connection and Re-add your SharePoint List connections
+ * To Change the Menu or Site Classification
+ ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Onstart.jpg) 
 
 ### Create SharePoint Lists
 
