@@ -41,6 +41,8 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 * Check_URL - Check resource url availiable [Check_URL - Check if Url exits](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/CheckURLFlow.md)
 
+* Provision Resources - Approval and Creation of SharePoint Site(Communication Site, Team Site,Team Site(No Group), Microsoft Teams)
+
 
 ###### App
 * Office365 Provisioning Appv3
@@ -52,9 +54,15 @@ Run the following flows:
 
 * CreateAgencyList - Create Agency List for Naming of resource
 
-** Agency Data - This contain your Agency information for the naming convention
+Agency Data - This contain your Agency information for the naming convention
+* Title - Agency Name
+* Division - Division Name
+* Business Unit - Business Unit
+* Approver - Office365 Group Email
+  * All members will recieve the approval email to create the group
+   
 ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
 
 * CreateOffice365ManList - Create Office365ManagementApp List for request storage
 
-** Office365ManagementApp - Contains all the SharePoint Request
+** Office365ManagementApp - Contains all the Requests
