@@ -9,24 +9,14 @@ This app uses standard Power Platform Connectors with a SharePoint Backend.
 ### Create SharePoint Lists
 
 
-1. Connect to the destination SharePoint site 
+1. Run the following flows:
 
-Connect-PnPOnline -Url "https://destinationSite.sharepoint.com/sites/destinationSite" 
-
-2. Import the items from the template file
-
-Invoke-PnPSiteTemplate -Path "C:\Temp\SPList.pnp"
-
-
-Download [SPList.pnp](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/SPList.pnp)
-
-###### It will create the following list:
-Agency Data - This contain your Agency information for the naming convention 
-
+*CreateAgencyList - Create Agency List for Naming of resource
+**Agency Data - This contain your Agency information for the naming convention
 ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
-SharePointRequestList - Contains all the SharePoint Request
 
-TeamsRequestList - Contains all the Teams Request
+*CreateOffice365ManList - Create Office365ManagementApp List for request storage
+**Office365ManagementApp - Contains all the SharePoint Request
 
 
 ### To import a solution:
@@ -44,7 +34,12 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 6. If your solution contains connection references, you’ll be prompted to select the connections you want. If a connection does not already exist, create a new one. Select Next.
 
-7. The solution contains an environment variables called TenantURL(https://contoso.sharepoint.com), you will be prompted to enter values. 
+7. The solution has three environment variables: 
+
+
+*SPO_TenantInformation -(https://contoso.sharepoint.com/) - This your Tenant URL 
+*SPO Site for Data - (https://contoso.sharepoint.com/sites/Office365ManagementApp)
+*SPO List Name - (Office365ManagementApp) - SharePoint List Name
 
 8. If missing dependencies are detected in the target environment, a list of the dependencies is presented. In environments where the required package version is available for import in the target environment, a link to resolve the dependency is presented. Selecting the link takes you to the Power Platform admin center where you can install the application update. After the application update is completed, you can start the solution import again.
 
@@ -53,19 +48,15 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 #### Imported Components:
 
-Create SPO Flow - Create SharePoint Sites
+###### Flows
+*CreateAgencyList - Create Agency List for Naming of resource
+*CreateOffice365ManList - Create Office365ManagementApp List for request storage
+*Check_URL - Check resource url availiable [Check_URL - Check if Url exits](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/CheckURLFlow.md)
 
-###### This needs to be modified to point your SPO Site and List
 
-Create Teams Flow - Create Teams Sites
+###### App
+*Office365 Provisioning Appv3
+**Remove connection and Re-add your SharePoint List connections
 
-###### This needs to be modified to point your SPO Site and List
 
-Offce365 Provisioning App - Power App
-
-###### [CheckURL - Check if Url exits](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/CheckURLFlow.md)
-
-TenantUrl - Needed for the CheckURL flow
-
-###### This needs to be modified to point your SPO domain- https://contoso.sharepoint.com
 
