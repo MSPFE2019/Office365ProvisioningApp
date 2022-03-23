@@ -53,6 +53,31 @@ Sign into Power Apps and select Solutions from the left navigation.
 * Office365 Provisioning Appv3
  * Remove connection and Re-add your SharePoint List connections
  * To Change the Menu or Site Classification
+
+
+Concurrent(
+ClearCollect(col_SiteClass,"","Internal","External","HIPPA","External-HIPPA"),
+Set(varRequest,Blank());
+Set(varBorderColor,Blank());
+ClearCollect(col_Agency,AgencyData);
+Set(varScrTrans,"ScreenTransition.UnCoverRight");
+ClearCollect(col_menu,Table(
+    {
+        menuLabel: "Home", 
+        menuIcon:Icon.Home,
+        menuScreen:scr_home,
+        menuId: 1
+    },
+     {
+        menuLabel: "My Request", 
+        menuIcon:Icon.ListScrollWatchlist,
+        menuScreen: scr_myrequest,
+        menuId: 2     
+    }
+)));
+
+
+
  ![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Onstart.jpg) 
 
 ### Create SharePoint Lists
