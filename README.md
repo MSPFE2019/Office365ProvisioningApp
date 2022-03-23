@@ -3,21 +3,6 @@ Power App that provisions SharePoint sites and Teams
 
 This app uses standard Power Platform Connectors with a SharePoint Backend. 
 
-1. Create SharePoint Lists
-2. Import Solution 
-
-### Create SharePoint Lists
-
-
-1. Run the following flows:
-
-*CreateAgencyList - Create Agency List for Naming of resource
-**Agency Data - This contain your Agency information for the naming convention
-![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
-
-*CreateOffice365ManList - Create Office365ManagementApp List for request storage
-**Office365ManagementApp - Contains all the SharePoint Request
-
 
 ### To import a solution:
 Sign into Power Apps and select Solutions from the left navigation.
@@ -36,7 +21,6 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 7. The solution has three environment variables: 
 
-
 *SPO_TenantInformation -(https://contoso.sharepoint.com/) - This your Tenant URL 
 *SPO Site for Data - (https://contoso.sharepoint.com/sites/Office365ManagementApp)
 *SPO List Name - (Office365ManagementApp) - SharePoint List Name
@@ -46,7 +30,7 @@ Sign into Power Apps and select Solutions from the left navigation.
 9. Select Import.
 
 
-#### Imported Components:
+### Imported Components:
 
 ###### Flows
 *CreateAgencyList - Create Agency List for Naming of resource
@@ -58,5 +42,13 @@ Sign into Power Apps and select Solutions from the left navigation.
 *Office365 Provisioning Appv3
 **Remove connection and Re-add your SharePoint List connections
 
+### Create SharePoint Lists
 
+Run the following flows:
 
+*CreateAgencyList - Create Agency List for Naming of resource
+**Agency Data - This contain your Agency information for the naming convention
+![Screenshot](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/AgencyData.jpg)
+
+*CreateOffice365ManList - Create Office365ManagementApp List for request storage
+**Office365ManagementApp - Contains all the SharePoint Request
