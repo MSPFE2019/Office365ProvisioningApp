@@ -44,8 +44,7 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 ###### App
 * Office365 Provisioning Appv3
- 
-** Remove connection and Re-add your SharePoint List connections
+ * Remove connection and Re-add your SharePoint List connections
 
 ### Create SharePoint Lists
 
