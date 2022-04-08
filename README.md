@@ -37,6 +37,12 @@ Sign into Power Apps and select Solutions from the left navigation.
 9. Select Import.
 
 
+
+### Service Account for Power Automate:
+ * Account need E1 - E5 or G1 - G5 license with Power App/Power Automate apps added
+ * Teams Service Admin Role
+
+
 ### Imported Components:
 
 ###### Flows
