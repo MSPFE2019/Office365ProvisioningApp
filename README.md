@@ -14,7 +14,7 @@ Sign into Power Apps and select Solutions from the left navigation.
 
 1. On the command bar, select Import.
 
-2. [Office365 Provisioning App](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Office365Provisioning_App_1_0_0_2.zip), Click to download solution.
+2. [Office365 Provisioning App](https://github.com/MSPFE2019/Office365ProvisioningApp/blob/main/Office365Provisioning_App_2_1_0_5.zip), Click to download solution.
 
 3. On the Import a solution page, select Browse to locate the compressed (.zip or .cab) file that contains the solution you want to import.
 
